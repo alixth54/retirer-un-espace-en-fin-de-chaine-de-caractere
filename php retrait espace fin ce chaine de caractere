@@ -1,0 +1,28 @@
+<?php
+//variable
+$mot = ['l','a','p','i','n',' ',' ']; //7 indice longueur(8)
+$taillemot = count($mot);
+
+$space =' ';
+/*for ($indicemot=0; $indicemot < $taillemot; $indicemot++){
+    if ( $mot[$i] == " "){
+        $x = $i;
+    }
+}
+for ($indicemot=0; $x-1>$indicemot; $indicemot--){
+$sansespace[$i] = $mot[$i];
+}
+print_r($sansespace);*/
+$i=0;
+while($mot[$i] != $space && $i<$taillemot){
+    if($mot[$i] == $space){
+    break;
+    }else{
+        
+    }
+    $sansespace[$i] = $mot[$i];
+    $i = $i+1;
+ 
+}
+print_r($sansespace);
+?>
