@@ -1,0 +1,19 @@
+ALGORITHM algorithm_name
+VAR
+    B,tableau[caractere]
+    Mot,tableau[caractere]
+    LM,X : Entier
+BEGIN
+saisir 'entrer un mot'
+Mot[i]<-Lire
+LM<-longueur(Mot)
+Pour i allantde 0 à LM pas 1 faire
+    Si Mot[i]='space'
+    Alors X<-i
+    FinSi
+Finpour
+longueur(B)<- (X)
+Pour i allantde 0 à (X-1) pas de 1 faire
+    B[i]<-A[i]
+Finpour
+END
